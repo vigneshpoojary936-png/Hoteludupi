@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech - Hotel Udupi Grand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Hotel Udupi Grand 🏨</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sentiment.html">Feedback Analysis</a></li>
+                    <li><a href="text_to_speech.html" class="active">T to S</a></li>
+                    <li id="login-status"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="section-title">Text to Speech Service</h1>
+        <p class="section-subtitle">Type any text below and click the button to hear it spoken aloud.</p>
+        
+        <div class="feedback-form">
+            <textarea id="ttsText" placeholder="Type something to speak..."></textarea>
+            <button id="speakBtn" class="btn">Speak 🔊</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Hotel Udupi Grand. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

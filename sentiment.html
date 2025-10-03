@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Analysis - Hotel Udupi Grand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Hotel Udupi Grand 🏨</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sentiment.html" class="active">Feedback Analysis</a></li>
+                    <li><a href="text_to_speech.html">T to S</a></li>
+                    <li id="login-status"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="section-title">Guest Feedback Analysis</h1>
+        <p class="section-subtitle">We value your opinion! Please share your experience with us.</p>
+        
+        <div class="feedback-form">
+            <textarea id="feedbackText" placeholder="Enter your feedback here... e.g., 'The food was amazing!'"></textarea>
+            <button id="analyzeBtn" class="btn">Analyze Feedback</button>
+        </div>
+        
+        <div id="result" class="sentiment-result">
+            </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Hotel Udupi Grand. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
